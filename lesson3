@@ -1,0 +1,49 @@
+# 1 задача
+# number = int(input('Введите первое число: '))
+# number1 = int(input('Введите второе число'))
+# def my_function ():
+#     if number1 >0:
+#         return number + number1
+#     else:
+#        return 'ой'
+#
+# print(my_function())
+
+# 2 задача
+# name = input('Введите ваше имя:')
+# surname = input('Введите вашу фамилию: ')
+# data = int(input('Введите ваш год рождения'))
+# town = input('Город проживания: ')
+# phone = int(input('Ваш номер: '))
+#
+# def my_user (name,surname, data, town, phone):
+#     return (f'Имя = {name} Фамилия = {surname} Год рождения = {data} Город = {town} Телефон = {phone}')
+#
+# print(my_user(name, surname, data, town, phone))
+
+# задание 3
+# x = 5
+# y = 6
+# z = 7
+#
+# def my_func(x,y,z):
+#     numb = [x,y,z]
+#     total = []
+#     max1 = max(numb)
+#     total.append(max1)
+#     numb.remove(max1)
+#     max2 = max(numb)
+#     total.append(max2)
+#     numb.remove(max2)
+#     return sum(total)
+#
+# print(my_func(x,y,z))
+
+# задание 4
+x = int(input('Введите число:'))
+y = int(input('Введите степень: '))
+
+def my_func(x,y):
+    m = x**y
+    return m
+print(my_func(x,y))
