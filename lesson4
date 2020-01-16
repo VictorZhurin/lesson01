@@ -1,0 +1,26 @@
+# Task 1:
+# def my_money ():
+#     time = int(input("Введите количество отработанных часов: "))
+#     salary = int(input("Введите вашу ставку в час: "))
+#     bonus = int(input("Введите сумму вашей премии: "))
+#     res = (time*salary) + bonus
+#     print(f"Заработная плата сотрудника: {res}")
+# функция в файле My_module
+#
+# import My_module as qwe
+# qwe.my_money()
+#
+# Task 2:
+# my_list = [15, 2, 3, 1, 7, 5, 4, 10]
+# my_new_list = [el for num, el in enumerate(my_list) if my_list[num - 1] < my_list[num]]
+# print(f'Исходный список {my_list}')
+# print(f'Новый список {my_new_list}')
+
+# Task 3
+# print(f"Числа от 20 до 240 кратные 20 и 21 - {[el for el in range(20,240) if el % 20 == 0 or el % 21 == 0]}")
+
+#Task 4
+#my_list = [1, 3, 3, 2, 4, 2, 8, 11, 1, 5]
+#my_new_list = [el for el in my_list if my_list.count(el) < 2]
+#print(my_new_list)
+
